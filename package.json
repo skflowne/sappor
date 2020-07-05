@@ -1,0 +1,45 @@
+{
+  "name": "sappor",
+  "version": "1.0.0",
+  "description": "CLI for creating configurable Sapper/Svelte projects",
+  "main": "index.js",
+  "bin": {
+    "@skflowne/sappor": "bin/sappor",
+    "sappor": "bin/sappor"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skflowne/sappor.git"
+  },
+  "keywords": [
+    "svelte",
+    "sapper",
+    "cli",
+    "project",
+    "setup",
+    "app",
+    "creation"
+  ],
+  "author": "Geoffrey Hug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skflowne/sappor/issues"
+  },
+  "homepage": "https://github.com/skflowne/sappor#readme",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "execa": "^4.0.2",
+    "inquirer": "^7.3.0",
+    "listr": "^0.14.3",
+    "ora": "^4.0.4"
+  }
+}
